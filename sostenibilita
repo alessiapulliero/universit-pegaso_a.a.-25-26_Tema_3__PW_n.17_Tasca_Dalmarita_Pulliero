@@ -29,10 +29,10 @@
                         <a class="nav-link active" aria-current="page" href="sostenibilita">Sostenibilità</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Tenute</a>
+                        <a class="nav-link" href="tenute">Tenute</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Report</a>
+                        <a class="nav-link" href="report">Report</a>
                         </li>
                     </ul>
 

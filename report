@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tasca D'Almerita Report</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo" width="200" height="60" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="sostenibilita">Sostenibilità</a> </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="tenute">Tenute</a></li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="report">Report</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/sfondo.jpg'); background-size: cover; background-position: center; min-height: 100vh;" class="d-flex align-items-center py-5">
+            <div class="container">
+
+                    <div class="text-center text-white mb-5" style="text-shadow: 2px 2px 5px rgba(0,0,0,0.8);">
+                        <h1 class="display-4 fw-bold">I Nostri Report</h1>
+                        <p class="lead">Scopri attraverso i nostri report annuali, tutte le innovazioni che la nostra azienda ha implementato negli anni, attraverso l'attenzione all'ambiente e alla sostenibilità con sempre un'occhio puntato alla qualità del vino.</p>
+                    </div>
+
+                    <section class="py-5">
+
+                        <!-- bg-success per il colore verde, text-white per il testo bianco -->
+                        <div class="card border-0 shadow-lg mb-5 bg-success text-white">
+                            <div class="card-body p-5 text-center">
+                            <!-- Badge sopra titolo -->
+                                <span class="badge bg-light text-success mb-3 px-3 py-2 text-uppercase">Novità</span>
+                                <h2 class="display-5 fw-bold mb-3">Report Sostenibilità 2025</h2>
+                                <p class="lead mb-4">Traccia le strategie di adattamento al cambiamento climatico, l'efficienza energetica delle tenute e la tutela attiva nei vigneti sempre rispettando tutti i 10 requisiti della fondazione SOStain.</p>
+                                <a href="docs/REPORT_SOSTAIN_TASCA_2025.pdf" download="Report_Tasca_2025.pdf" class="btn btn-light btn-lg fw-bold px-5">
+                                Scarica il Report (PDF)
+                                </a>
+                            </div>
+                        </div>
+
+    
+    
+                        <div class="row g-4 text-center">
+      
+                            <div class="col-12 col-md-4">
+                                <!-- d-flex flex-column serve per allineare il bottone in basso -->
+                                <div class="card border-0 shadow-sm h-100 p-4 d-flex flex-column">
+                                    <h4 class="fw-bold text-success mb-3">Report Sostenibilità 2024</h4>
+                                    <p class="text-muted mb-4">Focalizzato sul totale divieto di diserbo chimico, sull'impiego di materiali ecocompatibili e sul consolidamento di una filiera di fornitori 100% siciliana.</p>
+                                    <!-- mt-auto spinge il bottone sempre in fondo alla card -->
+                                    <a href="docs/Report_tasca_2024.pdf" download="Report_Tasca_2024.pdf" class="btn btn-outline-success mt-auto">
+                                    Scarica il Report (PDF)
+                                    </a>
+                                </div>
+                            </div>
+
+        
+                            <div class="col-12 col-md-4">
+                                <div class="card border-0 shadow-sm h-100 p-4 d-flex flex-column">
+                                    <h4 class="fw-bold text-success mb-3">Report Sostenibilità 2023</h4>
+                                    <p class="text-muted mb-4">Documenta lo storico traguardo della certificazione B-Corp e la trasparenza della rendicontazione ESG, premiata come miglior report dell'anno.</p>
+                                    <a href="docs/Report_tasca_2023.pdf" download="Report_Tasca_2023.pdf" class="btn btn-outline-success mt-auto">
+                                    Scarica il Report (PDF)
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-4">
+                                <div class="card border-0 shadow-sm h-100 p-4 d-flex flex-column">
+                                    <h4 class="fw-bold text-success mb-3">Report Sostenibilità 2022</h4>
+                                    <p class="text-muted mb-4">Incentrato sulla misurazione degli indicatori VIVA e SOStain, evidenzia la riduzione del peso delle bottiglie e l'incremento delle aree naturali a tutela della biodiversità.</p>
+                                    <a href="docs/Report_tasca_2022.pdf" download="Report_Tasca_2022.pdf" class="btn btn-outline-success mt-auto">
+                                    Scarica il Report (PDF)
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+
+
+
+            </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
