@@ -24,7 +24,7 @@
                         <a class="nav-link active" aria-current="page" href="home">Home</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Sostenibilità</a> </li>
+                        <a class="nav-link" href="sostenibilita">Sostenibilità</a> </li>
                         <li class="nav-item">
                         <a class="nav-link" href="#">Tenute</a></li>
                         <li class="nav-item">
@@ -82,7 +82,7 @@
                         </div>
                         <div class="card-footer">
                             <div class="text-center mt-3">
-                                <a href="#" class="btn btn-dark">Dimmi di più</a>
+                                <a href="sostenibilita" class="btn btn-dark">Dimmi di più</a>
                             </div>
                         </div>
                     </div>
